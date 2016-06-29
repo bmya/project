@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: project (8.0)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-28 01:09+0000\n"
-"PO-Revision-Date: 2016-02-28 08:26+0000\n"
+"POT-Creation-Date: 2016-05-19 20:32+0000\n"
+"PO-Revision-Date: 2016-05-19 05:14+0000\n"
 "Last-Translator: Matjaž Mozetič <m.mozetic@matmoz.si>\n"
 "Language-Team: Slovenian (http://www.transifex.com/oca/OCA-project-8-0/language/sl/)\n"
 "MIME-Version: 1.0\n"
@@ -66,3 +66,8 @@ msgstr "Odpri"
 #: model:ir.model,name:project_model_to_task.model_project_task
 msgid "Task"
 msgstr "Opravilo"
+
+#. module: project_model_to_task
+#: field:project.task,task_origin:0
+msgid "Task origin"
+msgstr "Izvor opravila"

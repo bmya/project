@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: project (8.0)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-08-31 18:04+0000\n"
-"PO-Revision-Date: 2015-07-23 05:32+0000\n"
+"POT-Creation-Date: 2016-05-19 20:32+0000\n"
+"PO-Revision-Date: 2016-05-19 05:13+0000\n"
 "Last-Translator: Matjaž Mozetič <m.mozetic@matmoz.si>\n"
 "Language-Team: Slovenian (http://www.transifex.com/oca/OCA-project-8-0/language/sl/)\n"
 "MIME-Version: 1.0\n"
@@ -117,6 +117,14 @@ msgid "Definitions"
 msgstr "Definicije"
 
 #. module: project_sla
+#: field:project.sla,display_name:0 field:project.sla.control,display_name:0
+#: field:project.sla.controlled,display_name:0
+#: field:project.sla.line,display_name:0
+#: field:project.sla.report,display_name:0
+msgid "Display Name"
+msgstr "Prikazni naziv"
+
+#. module: project_sla
 #: field:project.sla.control,doc_id:0
 msgid "Document ID"
 msgstr "ID dokumenta"
@@ -178,6 +186,14 @@ msgstr "ID"
 #: field:project.sla.report,sla_closed:0
 msgid "Is Closed"
 msgstr "Je zaključeno"
+
+#. module: project_sla
+#: field:project.sla,__last_update:0 field:project.sla.control,__last_update:0
+#: field:project.sla.controlled,__last_update:0
+#: field:project.sla.line,__last_update:0
+#: field:project.sla.report,__last_update:0
+msgid "Last Modified on"
+msgstr "Zadnjič spremenjeno"
 
 #. module: project_sla
 #: field:project.sla,write_uid:0 field:project.sla.control,write_uid:0
